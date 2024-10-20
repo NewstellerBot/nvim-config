@@ -90,11 +90,6 @@ _G.packer_plugins = {
     path = "/Users/krystianm1/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["format-on-save.nvim"] = {
-    loaded = true,
-    path = "/Users/krystianm1/.local/share/nvim/site/pack/packer/start/format-on-save.nvim",
-    url = "https://github.com/elentok/format-on-save.nvim"
-  },
   harpoon = {
     loaded = true,
     path = "/Users/krystianm1/.local/share/nvim/site/pack/packer/start/harpoon",

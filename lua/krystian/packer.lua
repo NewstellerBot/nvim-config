@@ -39,7 +39,7 @@ return require('packer').startup(function(use)
             { 'L3MON4D3/LuaSnip' },
         }
     }
-    use("elentok/format-on-save.nvim")
+    -- use("elentok/format-on-save.nvim")
     use {
         'numToStr/Comment.nvim',
         config = function()
