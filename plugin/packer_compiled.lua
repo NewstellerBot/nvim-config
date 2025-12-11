@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/krystianm1/.cache/nvim/packer_hererocks/2.1.1720049189/share/lua/5.1/?.lua;/Users/krystianm1/.cache/nvim/packer_hererocks/2.1.1720049189/share/lua/5.1/?/init.lua;/Users/krystianm1/.cache/nvim/packer_hererocks/2.1.1720049189/lib/luarocks/rocks-5.1/?.lua;/Users/krystianm1/.cache/nvim/packer_hererocks/2.1.1720049189/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/krystianm1/.cache/nvim/packer_hererocks/2.1.1720049189/lib/lua/5.1/?.so"
+local package_path_str = "/Users/krystianm1/.cache/nvim/packer_hererocks/2.1.1765007043/share/lua/5.1/?.lua;/Users/krystianm1/.cache/nvim/packer_hererocks/2.1.1765007043/share/lua/5.1/?/init.lua;/Users/krystianm1/.cache/nvim/packer_hererocks/2.1.1765007043/lib/luarocks/rocks-5.1/?.lua;/Users/krystianm1/.cache/nvim/packer_hererocks/2.1.1765007043/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/krystianm1/.cache/nvim/packer_hererocks/2.1.1765007043/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -80,40 +80,25 @@ _G.packer_plugins = {
     path = "/Users/krystianm1/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
-  LuaSnip = {
+  ["cmake-tools.nvim"] = {
     loaded = true,
-    path = "/Users/krystianm1/.local/share/nvim/site/pack/packer/start/LuaSnip",
-    url = "https://github.com/L3MON4D3/LuaSnip"
-  },
-  ["cmp-nvim-lsp"] = {
-    loaded = true,
-    path = "/Users/krystianm1/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
-    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+    path = "/Users/krystianm1/.local/share/nvim/site/pack/packer/start/cmake-tools.nvim",
+    url = "https://github.com/Civitasv/cmake-tools.nvim"
   },
   harpoon = {
     loaded = true,
     path = "/Users/krystianm1/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
-  ["lsp-zero.nvim"] = {
-    loaded = true,
-    path = "/Users/krystianm1/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
-    url = "https://github.com/VonHeikemen/lsp-zero.nvim"
-  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/Users/krystianm1/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
-    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+    url = "https://github.com/mason-org/mason-lspconfig.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
     path = "/Users/krystianm1/.local/share/nvim/site/pack/packer/start/mason.nvim",
-    url = "https://github.com/williamboman/mason.nvim"
-  },
-  ["nvim-cmp"] = {
-    loaded = true,
-    path = "/Users/krystianm1/.local/share/nvim/site/pack/packer/start/nvim-cmp",
-    url = "https://github.com/hrsh7th/nvim-cmp"
+    url = "https://github.com/mason-org/mason.nvim"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -124,6 +109,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/krystianm1/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["oxocarbon.nvim"] = {
+    loaded = true,
+    path = "/Users/krystianm1/.local/share/nvim/site/pack/packer/start/oxocarbon.nvim",
+    url = "https://github.com/nyoom-engineering/oxocarbon.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -139,11 +129,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/krystianm1/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
-  },
-  ["rose-pine"] = {
-    loaded = true,
-    path = "/Users/krystianm1/.local/share/nvim/site/pack/packer/start/rose-pine",
-    url = "https://github.com/rose-pine/neovim"
   },
   ["telescope.nvim"] = {
     loaded = true,
